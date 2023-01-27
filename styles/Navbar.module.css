@@ -1,0 +1,32 @@
+.nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #51cb20ff;
+    border-radius: 0.5rem;
+}
+.head {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.links {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.links div {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+
+}
+.links a {
+    text-decoration: none;
+    color: black;
+}
